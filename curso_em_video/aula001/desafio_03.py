@@ -1,3 +1,5 @@
-num1 = int(input("Primeiro número "))
-num2 = int(input("Segundo número "))
-print("A soma é ",num1+num2)
+num1 = int(input("Digite um número: "))
+num2 = int(input("Digite outro número: "))
+soma = num1 + num2
+
+print("O resultado da soma de {} e {} é igual a {}.".format(num1, num2, soma))
